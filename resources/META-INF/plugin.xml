@@ -30,6 +30,11 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="GenerateElementIdentifiers" class="com.dmtar.randomid.actions.GenerateElementIdentifiers"
+            text="Generate ids" description="Generates unique ids on HTML elements">
+      <add-to-group group-id="EditorActions" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G"/>
+    </action>
   </actions>
 
 </idea-plugin>
