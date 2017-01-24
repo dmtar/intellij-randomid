@@ -1,6 +1,5 @@
 package com.dmtar.randomid.generators;
 
-import com.dmtar.randomid.handlers.ElementIdGeneratorHandler;
 import org.jsoup.nodes.Node;
 
 import java.lang.reflect.InvocationTargetException;

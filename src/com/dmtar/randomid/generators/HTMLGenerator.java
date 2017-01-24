@@ -2,8 +2,6 @@ package com.dmtar.randomid.generators;
 
 import org.jsoup.nodes.Node;
 
-import java.lang.reflect.InvocationTargetException;
-
 /**
  *
  */
