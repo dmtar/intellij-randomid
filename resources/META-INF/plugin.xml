@@ -1,17 +1,18 @@
-<idea-plugin version="2">
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
-  <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+<idea-plugin version="2" url="https://github.com/dmtar/intellij-randomid">
+  <id>com.dmtar.idea.plugin.randomid</id>
+  <name>Generate HTML Ids</name>
+  <version>0.0.1</version>
+  <vendor email="dimityr.dishev@gmail.com" url="https://github.com/dmtar">Dimitar Dishev</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Generate HTML Ids
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      <h2>0.0.1</h2>
+      <ul>
+        <li>Initial version. Generating and applying unique ids on the HTML elements, which doesn't have an id attribute<li>
+      <ul>
     ]]>
   </change-notes>
 
@@ -36,5 +37,8 @@
       <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G"/>
     </action>
   </actions>
+
+  <depends>com.jetbrains.php</depends>
+  <depends>com.intellij.modules.platform</depends>
 
 </idea-plugin>
